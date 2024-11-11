@@ -1,0 +1,121 @@
+
+.main {
+    margin: auto;
+    max-width: 1900px;
+
+  }
+  body
+  {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .header
+  {
+    font-size: 50px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+
+  }
+
+.headerFooterBox
+{
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 5px;
+    flex: 100%;
+}
+.footer
+{
+  font-size: 30px;
+  color: white;
+  
+}
+.titrePrimaire
+{
+  font-size: 50px;
+  color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+text-align: left;
+padding: 10px;
+
+}
+.titreSecondaire
+{
+  font-size: 40px;
+  color: grey;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+text-align: left;
+padding: 10px;
+
+}
+.titleBox
+{
+  text-align: center;
+  align-items: center;
+  flex: 100%;
+}
+.flexBorders
+{
+  flex: 1; 
+  border: 1px solid black;
+  text-align: justify;
+  background-color: skyblue;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+.flexCenter{
+  flex: 2;
+  border: 1px solid black;
+  text-align: justify;
+}
+.fontBox
+{
+padding-left:15px ;
+padding-right:15px ;
+
+}
+.images
+{
+  width: 100%;
+  height: auto;
+
+}
+.imageBox
+{
+flex: 100%;
+padding: 5px;
+}
+
+@media screen and (max-width: 1200px){
+
+
+  .flexBorders
+{
+  flex:100%;
+
+}
+.flexCenter{
+  flex:100%;
+  
+}  
+.imageBox
+{
+  flex:50%;
+  order: 2;
+}
+
+
+.fontBox
+{
+  flex: 40%;
+}
+
+}
